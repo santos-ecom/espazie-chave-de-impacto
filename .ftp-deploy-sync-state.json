@@ -1,0 +1,1191 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1767945071020,
+    "data": [
+        {
+            "type": "file",
+            "name": ".htaccess",
+            "size": 214,
+            "hash": "c717ccca6bbd7f3b17f49805b8895fd2fbc5f67fe42cb86afe704f40d310f258"
+        },
+        {
+            "type": "folder",
+            "name": ".vite"
+        },
+        {
+            "type": "file",
+            "name": "_redirects",
+            "size": 23,
+            "hash": "6b01dca830505a155fac341eacf5d241852ec91235163202d6ba90339d390719"
+        },
+        {
+            "type": "folder",
+            "name": "assets"
+        },
+        {
+            "type": "folder",
+            "name": "dist"
+        },
+        {
+            "type": "file",
+            "name": "favicon.ico",
+            "size": 7645,
+            "hash": "29a40d56580a5366083461297773dbf146ec043d1156f432f5472cb3487f506b"
+        },
+        {
+            "type": "file",
+            "name": "index.html",
+            "size": 2752,
+            "hash": "73dbe6f25531217e90b94a699e2de6c230d8edebe1e242f1c82b081eee49a5ef"
+        },
+        {
+            "type": "file",
+            "name": "placeholder.svg",
+            "size": 3253,
+            "hash": "64badf7aabda0b9630b87020ffb6095cb858ccbcf66b355c2aa08b1063954d3b"
+        },
+        {
+            "type": "file",
+            "name": "robots.txt",
+            "size": 160,
+            "hash": "a3d27b3ca5ce32341fa9f96f01169b521b1657c05d1860c45d1e53a6258e9e8b"
+        },
+        {
+            "type": "file",
+            "name": "testebotao.html",
+            "size": 5146,
+            "hash": "d49498bb6b9094b614a90d75dc1170fc9e815d107d86e53dc47f0f9471e395a9"
+        },
+        {
+            "type": "file",
+            "name": "tool_machine.png",
+            "size": 540532,
+            "hash": "4d922576d084685fc0256c5fa2bf22aa0cd8f3aa9749cda92656e9a4f3ec224c"
+        },
+        {
+            "type": "file",
+            "name": ".git/FETCH_HEAD",
+            "size": 134,
+            "hash": "bc6887b12a9e43e9a0250aed9c161072e49d7eb882b6c9cd419ef334f70b5c18"
+        },
+        {
+            "type": "file",
+            "name": ".git/HEAD",
+            "size": 21,
+            "hash": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+        },
+        {
+            "type": "file",
+            "name": ".git/config",
+            "size": 423,
+            "hash": "1c5cc998e5856ced547a8c1f66f0f43a4be33df9e11596d6ca76640095609bbc"
+        },
+        {
+            "type": "file",
+            "name": ".git/config.worktree",
+            "size": 83,
+            "hash": "443a5f645c23c3d0c0aa09f634b2ad111d46ef61946b598a2fb311678ab47454"
+        },
+        {
+            "type": "file",
+            "name": ".git/description",
+            "size": 73,
+            "hash": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+        },
+        {
+            "type": "folder",
+            "name": ".git/hooks"
+        },
+        {
+            "type": "file",
+            "name": ".git/index",
+            "size": 15477,
+            "hash": "1ac538eb94b350efc9b9232d60f22c3ea37381f0e57cab701ba21ce4ecbe39e6"
+        },
+        {
+            "type": "folder",
+            "name": ".git/info"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs"
+        },
+        {
+            "type": "file",
+            "name": ".git/shallow",
+            "size": 41,
+            "hash": "15b19a86d0b4b3e1527cd3250174426a865af1649b4c174c6682004e7d524b63"
+        },
+        {
+            "type": "folder",
+            "name": ".vite/deps_temp_99b0f87e"
+        },
+        {
+            "type": "file",
+            "name": "assets/amex-logo-DTWJ8sMu.png",
+            "size": 50761,
+            "hash": "b75cfb429e241d9ded2551621df270555f476a3aed286058cf9c313a550fd1d2"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-desc-1-Cad_TNqu.png",
+            "size": 154600,
+            "hash": "6aa1a64d0d0f3a56d52a5a880ea3079215ec4c066916713ee62123f772966683"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-desc-1-Dyd2PuZG.png",
+            "size": 659537,
+            "hash": "c3c2c2699ea177a70a70175bbffc25e34b610fd54b09ceb4ddcdd07825a3527b"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-desc-2-BhHdOIhM.png",
+            "size": 177955,
+            "hash": "de245fcdc6f3a2d4edb72211a7581366950f41be43b4ee50a980fdab4bcc717f"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-desc-2-NcZ7rLIe.png",
+            "size": 832508,
+            "hash": "81e06b902165d7c25f16397555def77c5fda8c04dfd275579bf527ae88e151fd"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-desc-3-2qIJ2TDJ.png",
+            "size": 758010,
+            "hash": "e4da4c593fa713298ef59bef62b38f449318da1eaa0014c7dd1e03b817631497"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-desc-3-Cs3aGXSx.png",
+            "size": 191473,
+            "hash": "7b054bb5f8157294c3b128591b8965403f62e96c3b59c244e2e45c240e3b7004"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-desc-4-DtuXJgsN.png",
+            "size": 566038,
+            "hash": "796e92d915f29d6a5a931fac3c47ae9a06e242732e06eb993f304070d2bc3acf"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-desc-4-laFTe7F4.png",
+            "size": 141911,
+            "hash": "6fb95dced6d8f74acb3dd8e9eb33bf31ffe7ef36fdc6be3d359c8e30be8f0684"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-main-1-B1L38Vcd.png",
+            "size": 144533,
+            "hash": "93a6842425f36b821c60dee5a04f60660ac34d0fb15ff25a155aba2ad951f45a"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-main-2-BTCUOsY0.png",
+            "size": 98198,
+            "hash": "444ab1080c3a70abd34f15ddf0db5f747fd7519fcdb68a3c956d1fba38253ed4"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-main-2-DiNNh-X6.png",
+            "size": 315640,
+            "hash": "cac4b043ed743b63d8cb4838da6310b45c431aeaeb41db032cc1e370b782284b"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-main-3-4x0BNN_t.png",
+            "size": 324979,
+            "hash": "45d30991f4ed1f2f197d7d30607e361854ef5075f11ca63a131c4381bdfac0fd"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-main-3-D1L0DhV2.png",
+            "size": 100187,
+            "hash": "10d391d34831b8a3cdd8496bf194cc2a3916d94d932aabf698a0442ef6335f1d"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-main-4-WSUOKBqU.png",
+            "size": 281850,
+            "hash": "c556b43d45559a2ec6ef63c374c9db78eaeee124cc4d2afd2bc5ea54d85fa536"
+        },
+        {
+            "type": "file",
+            "name": "assets/azul-main-5-B0InTR9A.png",
+            "size": 262890,
+            "hash": "ca5c3d757b4367836c7524657b4edc469768e26cde873dd10ae55359977fbe0d"
+        },
+        {
+            "type": "file",
+            "name": "assets/descricao-7-usa-Bq_n3YHa.png",
+            "size": 392249,
+            "hash": "d82b9f863831fd28afdfb65e929eda79c5d8afe3cac3ff3ce7db512d31fc429e"
+        },
+        {
+            "type": "file",
+            "name": "assets/descricao-7-usa-U7p75REj.png",
+            "size": 1969241,
+            "hash": "ce8739bd535d7b8ecc1a9cc640a8c6de0702103ad09ebcc311368aaf6c925801"
+        },
+        {
+            "type": "file",
+            "name": "assets/descricao-8-usa-BAAsPKKy.png",
+            "size": 1675677,
+            "hash": "aff611d29a3a84a9279ef948472561cd557538eb9e707fa9907d78b369069ed2"
+        },
+        {
+            "type": "file",
+            "name": "assets/descricao-8-usa-rJLLlHP1.png",
+            "size": 300453,
+            "hash": "36b9ca474d0a77d051ecd45ff6de4e7332dd601d7c83fee76bac2903c0707abf"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-desc-1-CODPKYSP.png",
+            "size": 153898,
+            "hash": "f6ffe030af75d000e5b78ad3e96567009233cf25d79be1d68ae85e9fd868dfc2"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-desc-1-DaBfbeDj.png",
+            "size": 630342,
+            "hash": "320e4eb2b78b061520301f13034c9e96991336531c26119f9c0a093fa3995a4e"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-desc-2-DR73OcWv.png",
+            "size": 760573,
+            "hash": "e79cc7005e0caa4133cc37634333ad74a72f5ea6fa19ad2e5bc9d90d33f5c493"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-desc-2-DxgkM6xH.png",
+            "size": 194834,
+            "hash": "af2c5edcf896d55eb8cc23058cb1682b64d61a05f66ec9eeec9ec5256193c347"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-desc-3-CVGtnyyz.png",
+            "size": 853141,
+            "hash": "0b94bbabd9dec8b28fa3374d4cf4c89404cc33ff3466318d325fb52e366894f7"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-desc-3-lev3RL_D.png",
+            "size": 218159,
+            "hash": "10c267d1e27c8765bd551bb7cdea5e17684a7724e99f2fa18264c4bc717bdba8"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-desc-4-DbutXprU.png",
+            "size": 231572,
+            "hash": "2f40c91723e748e280382e7d8c2ee9c4e841283ad718c11a6b521aec76364b1c"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-desc-4-o8R3CBxj.png",
+            "size": 835845,
+            "hash": "92ab87bb3567d404f4d1788c2cfce7f56ded827fe4d3a91e2efc19ddfab09690"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-main-1-4m84AMTN.png",
+            "size": 287917,
+            "hash": "07fc106100e30f9419cf40bee67e7419212c63fe213c39909966e694b98c07b9"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-main-2-BjUJBXWL.png",
+            "size": 228936,
+            "hash": "6eae9ac4f1b7e3b4ac9468ebc6e2081084e2fd81b0676aa9e9b5b5cbab9ca577"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-main-3-DZw1M_wQ.png",
+            "size": 128886,
+            "hash": "fc2c6d98bc768cabee2a22a1da44da17ecbe5c1a5c562a87d60a4e39e21887ce"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-main-3-SfXv40tM.png",
+            "size": 392337,
+            "hash": "5ac9a9de3893e2219666baa4e99ed0a90350895fa0141e28c81e002be7456680"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-main-4-BhMF9H3e.png",
+            "size": 300360,
+            "hash": "0bef54128f58ff55adc626b53b499b592cc5f42b04ba18ede49d20b2990eaadb"
+        },
+        {
+            "type": "file",
+            "name": "assets/dewalt-main-5-Chwc2IRZ.png",
+            "size": 289729,
+            "hash": "4bfa6aee4e75e92beffa32d0477f0c3e142f6f607e87335f529edfff7a630f7d"
+        },
+        {
+            "type": "file",
+            "name": "assets/discover-logo-DNRvMRrQ.webp",
+            "size": 31772,
+            "hash": "c71e1aaf5a31d799afe31ef6b90a480adfc2a64369e42c48af11ba363b8d8232"
+        },
+        {
+            "type": "file",
+            "name": "assets/espazie-logo-B5hH-QqA.png",
+            "size": 604357,
+            "hash": "67e91a5c78644c0a8c22ee1553ebf26505a1c6f0ea587cc2e734a8b00954d534"
+        },
+        {
+            "type": "file",
+            "name": "assets/espazie-logo-SPouR-hK.png",
+            "size": 68288,
+            "hash": "d006c13a7a276f32347f3ce9ed9d94a081d2b65bfc0664c71fc0bd6e65834417"
+        },
+        {
+            "type": "file",
+            "name": "assets/google-safe-browsing-CwzIU0Uj.png",
+            "size": 78902,
+            "hash": "5a358bf83bcb458fb744b17a8dc08eb7509eb3eeb7f0cd32078160e19488367e"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-AGhEHlyp.js",
+            "size": 413343,
+            "hash": "0845a397be2f8eeeced357e947456652bfee1d95a9fcf159453798688dd2e808"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-B3JHxSSu.js",
+            "size": 409140,
+            "hash": "4c8aaf0b1a3bdf04c50d3d7a164d037a00f52e6d5dd6a9a6b61592ec0cd5d3e0"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-BOSEHjKq.css",
+            "size": 65556,
+            "hash": "87f766e374f6977e0e219c038291c432e32ff0c8eea672630dcdefb7ae3e03a1"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-BasF_ZC6.js",
+            "size": 392971,
+            "hash": "74d71ab5eb4f67fd5192da984c27735946f69450ef7c6a20837c1abf10107f31"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-Bk1QzbGy.js",
+            "size": 392796,
+            "hash": "cbec8ccd4c3ffc3cf2e820d4474b16a855ac4683ddd9fde0d107454c13814668"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-Bo73lCbF.js",
+            "size": 413508,
+            "hash": "50683781692cfba3faf957289265e7f6afab1b964c565d409ffd4a128d4c69a7"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-CJ_CBH6X.js",
+            "size": 413473,
+            "hash": "1e8fd21e9440d2abe402079e66e4d6ff6809a98e6fb6bb000074f00d1911f9e0"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-C_QA7AS3.js",
+            "size": 408115,
+            "hash": "f7998599661a048ee085229686730a0918a481cdbac05e34784390703cfe6e3a"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-CtrUUHnr.js",
+            "size": 413345,
+            "hash": "12c6e3ab77d25e57a3d28f4f0c1ec1f32f43fbd80a426f2248b46647a35b41e2"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-CufeE23E.js",
+            "size": 394474,
+            "hash": "58512ede175da8341f94043ef8ae47586209b81ed17a087ad3736a171af4a319"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-DMFIf2t1.js",
+            "size": 413399,
+            "hash": "54da071d8da0577439e99f1fc716e7aa77959ebe7578555b813d0163b8440956"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-DQaK0ttY.js",
+            "size": 407462,
+            "hash": "cdbc82da6191a3d2c8ec1a8740e4b087630962787fbb26d287a2cbdbbc248310"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-DRfI3OYB.js",
+            "size": 392599,
+            "hash": "09e782dc8a81903bf2a711783fb47796f198085f985f0fc3137513559ca6c927"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-DcQQoMRH.css",
+            "size": 65615,
+            "hash": "ea8fc390e419509d6c8d301b695701616067aaeef01fc0a92128af79cf252a7e"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-DdTk5QEf.css",
+            "size": 65872,
+            "hash": "7323e802a30c1a5077149cc3e8b61729cc620215fd01fedf98dfe7908c7fad76"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-Ddo1LQat.js",
+            "size": 407957,
+            "hash": "32efde93cec44e0d1d52d6305b94cc53f5cf8ebd754eb65018d44def89022a30"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-JgUr0uEI.css",
+            "size": 65497,
+            "hash": "17f6f6d415898cbe5f8edc29ebaf7161b5ecc8de3499ee94dfc756cbf89d2251"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-LgXLrqeC.js",
+            "size": 413138,
+            "hash": "cbc6293376da852a20e5bf206551119dad1fd90c38bbb7c3bb6a376194675313"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-Q1wGooYn.js",
+            "size": 407462,
+            "hash": "341a479efc36cf463383868f0412159c9e02890b8285c67649d7055134540895"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-legacy-BmgYKrGe.js",
+            "size": 514445,
+            "hash": "58ec0cf03f31b2034f37ae6f369cb3efa62f5b0e66bd45ac234212c6f6407b81"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-legacy-BxBLoFnE.js",
+            "size": 448896,
+            "hash": "1901dee24041a239b8f1578e17ff574b3ff8ee4f96ae749bcf4f33985337b71e"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-legacy-C4NrWEeP.js",
+            "size": 514525,
+            "hash": "9cc25b62d2adb6b5ad300aa95641a08eddbca44abd18b03f5faad54319f1789e"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-legacy-CJbPejXC.js",
+            "size": 508884,
+            "hash": "b29c2ae84ab3c4565b34ffbf0e83e1e5d572a74a6192d6881db63579ae8f48e4"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-legacy-D2ukGrBb.js",
+            "size": 514391,
+            "hash": "21dc90233c7d61ae4da5e0080bf2f0b4da32746643960608acbcf9fbbd8e320a"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-legacy-DExRrpFc.js",
+            "size": 514558,
+            "hash": "b6f5ca1f394e4da271e0b3117fbb68569483ac705961fd9f8ee4fb61647d1d87"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-legacy-DGu454zQ.js",
+            "size": 509091,
+            "hash": "89122992bca37b9001562b29c7f503675ffa5698c3e51ab6541c596f8deada5d"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-legacy-HonbBjQN.js",
+            "size": 514393,
+            "hash": "98881c942dcbd238076dfc439b8d3d27bde3e2dd08230050a7e79d855b878841"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-legacy-OwtnY4wf.js",
+            "size": 510174,
+            "hash": "a50b647319aef5c44416823a0de8eaac3f860514d172783ae2895919ef7593e3"
+        },
+        {
+            "type": "file",
+            "name": "assets/polyfills-legacy-D56Mjp_c.js",
+            "size": 126617,
+            "hash": "418939628f1f4d36e8c50217e4c9b204f2996fc867bba1633a1ab961d03d9e02"
+        },
+        {
+            "type": "file",
+            "name": "assets/polyfills-legacy-DLfwLpBs.js",
+            "size": 41559,
+            "hash": "862ee6acc863a8bb06749a0b1da7e54b2394f7d1c423e23b77f29e8adfb1f9e3"
+        },
+        {
+            "type": "file",
+            "name": "assets/produto-aberto1-D8F2gGIU.jpg",
+            "size": 796353,
+            "hash": "55dd0452b9f9a540c31410e1ef641af19a7464e0a44557a3a756fdeeb27a673d"
+        },
+        {
+            "type": "file",
+            "name": "assets/produto-aberto1-DvK-uNTQ.jpg",
+            "size": 317028,
+            "hash": "ea5f33131342a74692058d873d8ddef2f033e8a258854296e8a9ee368aeba458"
+        },
+        {
+            "type": "file",
+            "name": "assets/produto-fechado-DCnOt_xE.jpg",
+            "size": 293797,
+            "hash": "7ec942c85877d0ea15ee6c8d119dcd14b829019a4e97827aa008b749a75ffc9e"
+        },
+        {
+            "type": "file",
+            "name": "assets/produto-fechado-y5pvi2og.jpg",
+            "size": 735248,
+            "hash": "662cb42a770358a82ab2957f4212ddb469be3375f58f319555dca9c8b4c075e1"
+        },
+        {
+            "type": "file",
+            "name": "assets/produto-principal-real-BLadqFK1.jpg",
+            "size": 320000,
+            "hash": "5a92adc02ef8426ea12142976f99d5c1a85057816df9ca8690e36c7bdfbc7530"
+        },
+        {
+            "type": "file",
+            "name": "assets/produto-principal-real-VXoGTBp2.jpg",
+            "size": 747979,
+            "hash": "9215dbebf102846c981683cc928c65eaa9b6448eb75d8035e562264d14d3a962"
+        },
+        {
+            "type": "file",
+            "name": "assets/promocao-brinde-nova-C5aS5pY5.png",
+            "size": 2177001,
+            "hash": "848f0353f8c57eec271ac052f55846ef3fa5d0c3966b56139fdd0ad825a63893"
+        },
+        {
+            "type": "file",
+            "name": "assets/promocao-brinde-nova-CICfOBF8.png",
+            "size": 477776,
+            "hash": "f1361c6084d5705d2d693358a747e3fd9b41ad3068a7d88a3e57d00f7183db4a"
+        },
+        {
+            "type": "file",
+            "name": "assets/tent-luxury-glamping-BZwT9qIL.png",
+            "size": 867175,
+            "hash": "1a1f5659ee7009c798622d1807502ab3a2d2a44ca5d9e812d3b3dc5a72d66ce5"
+        },
+        {
+            "type": "file",
+            "name": "assets/tent-luxury-glamping-CzRzSN8b.png",
+            "size": 2575773,
+            "hash": "2b62446003e6ee1446637bfcacaa507de5a692f0a2af118665f1308a07494ef9"
+        },
+        {
+            "type": "file",
+            "name": "assets/tent-main-1-BKiTgCqN.jpg",
+            "size": 204647,
+            "hash": "f971ab211301b00427b815c85af22b5846fdab5157bdcd4a1e8e7b8ab2c2cd2c"
+        },
+        {
+            "type": "file",
+            "name": "assets/tent-main-2-BwDJHyPj.jpg",
+            "size": 149575,
+            "hash": "5793e71ad08ab1ed2eab4b61ef4f5eeadf8c69f7abc6e702ede11990b6650952"
+        },
+        {
+            "type": "file",
+            "name": "assets/tent-main-3-B6z7-6R3.jpg",
+            "size": 72053,
+            "hash": "3580e7b6416e7ef080192bf4ac611aa164dec4a60f04d836ce07ec73b1f8ecc1"
+        },
+        {
+            "type": "file",
+            "name": "assets/tent-main-4-ChJD176b.jpg",
+            "size": 209710,
+            "hash": "b64cfee08c303e2ddc9214cb37c12792b3c14c50d78f84dae778df348d3911d4"
+        },
+        {
+            "type": "file",
+            "name": "assets/tent-no-assembly-Fw69mpmu.png",
+            "size": 2701683,
+            "hash": "5f9b54bee30ae4613071a7d19a23a8399ef4734b4a8fbf851e2ba4d07034d25d"
+        },
+        {
+            "type": "file",
+            "name": "assets/tent-no-assembly-awOeUMBV.png",
+            "size": 687029,
+            "hash": "42f8d61bbe4d8e14d84013ac0750b692c905391ae6622c4873152d54b9dceff5"
+        },
+        {
+            "type": "file",
+            "name": "assets/tent-transform-camping-DPpcZojJ.png",
+            "size": 711063,
+            "hash": "418c1a36a2339f1a9d66110fcb7b43cf441790e8eac80b529f7b34e41af1349f"
+        },
+        {
+            "type": "file",
+            "name": "assets/tent-transform-camping-xLnk1Ovs.png",
+            "size": 2791363,
+            "hash": "64860726e6d141d8a0fe8df391d7ceb15ec0dd491fb8f0a1496521f9e9aeccb6"
+        },
+        {
+            "type": "file",
+            "name": "assets/visa-logo-DuRw7S0W.png",
+            "size": 72329,
+            "hash": "a771d1b5e44d8a3b1d490c09ce5d58c4071bf3098841477763a4f7d7ca606c88"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-desc-1-661ZdAHC.png",
+            "size": 218834,
+            "hash": "908dd0b89f88d58fd9cc259b139ef0964020d8b0a4b8f4b29ac9973b257c6d89"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-desc-1-BbQSIk5G.png",
+            "size": 830399,
+            "hash": "8d267b0eb04a0b1bb0d0331feecce5384965ccfff63d5ead7957e26c0bdc892e"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-desc-2-DVmefP2M.jpg",
+            "size": 136555,
+            "hash": "90108e7ccb61c1af6c21cf229af39f83b2851eba8043bcb3ce7642a04c4c3b8a"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-desc-2-DZSsJEAM.jpg",
+            "size": 354345,
+            "hash": "72b67a9f8d4f97848ed9760b41a2b00de19a6be9ac18a17e4feb353fc17da06f"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-desc-3-B5EvUdHC.png",
+            "size": 285003,
+            "hash": "1cab805db7824ee41b0f4c7248279abbe593cdfb3bd07d81e418f1d5b46ef09b"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-desc-3-CjOgX5h3.png",
+            "size": 1010525,
+            "hash": "d6d829cc6dda9f9e9719c48d23319f626841a6a3798e12098ce4ff45a5827455"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-desc-4-0S4-pfuT.png",
+            "size": 279584,
+            "hash": "1cfa9b19967e2a55d51d07e7bf96b488c01cf911753cc62e27163b9244a5f33f"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-desc-4-DUDbupKK.png",
+            "size": 1009124,
+            "hash": "1bbc7f4f1595042d402276e12a4a006f4e111006fc4efad9a6b7680ae6bb2179"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-main-1-BDgPqkve.png",
+            "size": 402243,
+            "hash": "4db153e0203c8fee903f2fd74cbe7d96e846f70e5dc26c398b6ebbea52168dcf"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-main-1-Dg9V8Inj.png",
+            "size": 2945974,
+            "hash": "022936aab6239d08547f1dbe962bb58f94fe1fd5bc1e4ada4e07c2e30616a642"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-main-2-2rZWR_5X.png",
+            "size": 2095797,
+            "hash": "82dc918295a6a7e27fe310ab6d6387a0eceb8e1b4addaea827eb199c145def34"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-main-2-DWJZZ2J7.png",
+            "size": 432284,
+            "hash": "1a262da3c1b4cc3069117cdbabcb969d49e5344883bcb6b209cf639cedc37257"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-main-3-CzuLI0ij.png",
+            "size": 1981116,
+            "hash": "c780371ca94256f9c973b5367a48d90f4815ace2f7b6fde77debffa68de3d911"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-main-3-Dcedx1Ti.png",
+            "size": 430000,
+            "hash": "90f38eefbbf79338525c9bb86ea7116466f987428a477e1f3dd42fb2da061569"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-main-4-CF_NGBwL.png",
+            "size": 2071213,
+            "hash": "1e87fccf176e5eb5bfe533322475820a2a8a04cb65e717ca4ebd3da71e871e03"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-main-4-Cwf8ulMW.png",
+            "size": 446460,
+            "hash": "5f0bba434bfca3d3f66ca7a570fe0deb0954cbfe4a0fc75d25d6db3ac43d1cba"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-main-5-CrlJXggc.png",
+            "size": 2334898,
+            "hash": "868ea635242b7b9c50275b9c693724d46c5b6a4218790b4c5c0a2522d87dc572"
+        },
+        {
+            "type": "file",
+            "name": "assets/xr-main-5-DBnSmAwh.png",
+            "size": 535432,
+            "hash": "a4331c337e5368ec72ff9295c0362f580aac277c85dda5d20ab7c3c146cb90b1"
+        },
+        {
+            "type": "folder",
+            "name": "dist/assets"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/applypatch-msg.sample",
+            "size": 478,
+            "hash": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/commit-msg.sample",
+            "size": 896,
+            "hash": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/fsmonitor-watchman.sample",
+            "size": 4726,
+            "hash": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/post-update.sample",
+            "size": 189,
+            "hash": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-applypatch.sample",
+            "size": 424,
+            "hash": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-commit.sample",
+            "size": 1649,
+            "hash": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-merge-commit.sample",
+            "size": 416,
+            "hash": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-push.sample",
+            "size": 1374,
+            "hash": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-rebase.sample",
+            "size": 4898,
+            "hash": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-receive.sample",
+            "size": 544,
+            "hash": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/prepare-commit-msg.sample",
+            "size": 1492,
+            "hash": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/push-to-checkout.sample",
+            "size": 2783,
+            "hash": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/sendemail-validate.sample",
+            "size": 2308,
+            "hash": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/update.sample",
+            "size": 3650,
+            "hash": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+        },
+        {
+            "type": "file",
+            "name": ".git/info/exclude",
+            "size": 240,
+            "hash": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+        },
+        {
+            "type": "file",
+            "name": ".git/logs/HEAD",
+            "size": 218,
+            "hash": "fec43a2fa79d4d898b05607f45c451ed406dc1fa38e21493fc0a98750964f657"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/info"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/pack"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/heads"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/remotes"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/tags"
+        },
+        {
+            "type": "file",
+            "name": ".vite/deps_temp_99b0f87e/package.json",
+            "size": 23,
+            "hash": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/azul-desc-1-Cad_TNqu.png",
+            "size": 154600,
+            "hash": "6aa1a64d0d0f3a56d52a5a880ea3079215ec4c066916713ee62123f772966683"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/azul-desc-2-BhHdOIhM.png",
+            "size": 177955,
+            "hash": "de245fcdc6f3a2d4edb72211a7581366950f41be43b4ee50a980fdab4bcc717f"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/azul-desc-3-Cs3aGXSx.png",
+            "size": 191473,
+            "hash": "7b054bb5f8157294c3b128591b8965403f62e96c3b59c244e2e45c240e3b7004"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/azul-desc-4-laFTe7F4.png",
+            "size": 141911,
+            "hash": "6fb95dced6d8f74acb3dd8e9eb33bf31ffe7ef36fdc6be3d359c8e30be8f0684"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/azul-main-2-BTCUOsY0.png",
+            "size": 98198,
+            "hash": "444ab1080c3a70abd34f15ddf0db5f747fd7519fcdb68a3c956d1fba38253ed4"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/azul-main-3-D1L0DhV2.png",
+            "size": 100187,
+            "hash": "10d391d34831b8a3cdd8496bf194cc2a3916d94d932aabf698a0442ef6335f1d"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/descricao-7-usa-Bq_n3YHa.png",
+            "size": 392249,
+            "hash": "d82b9f863831fd28afdfb65e929eda79c5d8afe3cac3ff3ce7db512d31fc429e"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/descricao-8-usa-rJLLlHP1.png",
+            "size": 300453,
+            "hash": "36b9ca474d0a77d051ecd45ff6de4e7332dd601d7c83fee76bac2903c0707abf"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/dewalt-desc-1-CODPKYSP.png",
+            "size": 153898,
+            "hash": "f6ffe030af75d000e5b78ad3e96567009233cf25d79be1d68ae85e9fd868dfc2"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/dewalt-desc-2-DxgkM6xH.png",
+            "size": 194834,
+            "hash": "af2c5edcf896d55eb8cc23058cb1682b64d61a05f66ec9eeec9ec5256193c347"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/dewalt-desc-3-lev3RL_D.png",
+            "size": 218159,
+            "hash": "10c267d1e27c8765bd551bb7cdea5e17684a7724e99f2fa18264c4bc717bdba8"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/dewalt-desc-4-DbutXprU.png",
+            "size": 231572,
+            "hash": "2f40c91723e748e280382e7d8c2ee9c4e841283ad718c11a6b521aec76364b1c"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/dewalt-main-3-DZw1M_wQ.png",
+            "size": 128886,
+            "hash": "fc2c6d98bc768cabee2a22a1da44da17ecbe5c1a5c562a87d60a4e39e21887ce"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/espazie-logo-SPouR-hK.png",
+            "size": 68288,
+            "hash": "d006c13a7a276f32347f3ce9ed9d94a081d2b65bfc0664c71fc0bd6e65834417"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/index-BOSEHjKq.css",
+            "size": 65556,
+            "hash": "87f766e374f6977e0e219c038291c432e32ff0c8eea672630dcdefb7ae3e03a1"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/index-Bk1QzbGy.js",
+            "size": 392796,
+            "hash": "cbec8ccd4c3ffc3cf2e820d4474b16a855ac4683ddd9fde0d107454c13814668"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/index-CufeE23E.js",
+            "size": 394474,
+            "hash": "58512ede175da8341f94043ef8ae47586209b81ed17a087ad3736a171af4a319"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/index-DQaK0ttY.js",
+            "size": 407462,
+            "hash": "cdbc82da6191a3d2c8ec1a8740e4b087630962787fbb26d287a2cbdbbc248310"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/index-DRfI3OYB.js",
+            "size": 392599,
+            "hash": "09e782dc8a81903bf2a711783fb47796f198085f985f0fc3137513559ca6c927"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/index-DcQQoMRH.css",
+            "size": 65615,
+            "hash": "ea8fc390e419509d6c8d301b695701616067aaeef01fc0a92128af79cf252a7e"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/index-JgUr0uEI.css",
+            "size": 65497,
+            "hash": "17f6f6d415898cbe5f8edc29ebaf7161b5ecc8de3499ee94dfc756cbf89d2251"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/index-LgXLrqeC.js",
+            "size": 413138,
+            "hash": "cbc6293376da852a20e5bf206551119dad1fd90c38bbb7c3bb6a376194675313"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/index-legacy-BxBLoFnE.js",
+            "size": 448896,
+            "hash": "1901dee24041a239b8f1578e17ff574b3ff8ee4f96ae749bcf4f33985337b71e"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/polyfills-legacy-DLfwLpBs.js",
+            "size": 41559,
+            "hash": "862ee6acc863a8bb06749a0b1da7e54b2394f7d1c423e23b77f29e8adfb1f9e3"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/produto-aberto1-DvK-uNTQ.jpg",
+            "size": 317028,
+            "hash": "ea5f33131342a74692058d873d8ddef2f033e8a258854296e8a9ee368aeba458"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/produto-fechado-DCnOt_xE.jpg",
+            "size": 293797,
+            "hash": "7ec942c85877d0ea15ee6c8d119dcd14b829019a4e97827aa008b749a75ffc9e"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/produto-principal-real-BLadqFK1.jpg",
+            "size": 320000,
+            "hash": "5a92adc02ef8426ea12142976f99d5c1a85057816df9ca8690e36c7bdfbc7530"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/promocao-brinde-nova-CICfOBF8.png",
+            "size": 477776,
+            "hash": "f1361c6084d5705d2d693358a747e3fd9b41ad3068a7d88a3e57d00f7183db4a"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/tent-luxury-glamping-BZwT9qIL.png",
+            "size": 867175,
+            "hash": "1a1f5659ee7009c798622d1807502ab3a2d2a44ca5d9e812d3b3dc5a72d66ce5"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/tent-no-assembly-awOeUMBV.png",
+            "size": 687029,
+            "hash": "42f8d61bbe4d8e14d84013ac0750b692c905391ae6622c4873152d54b9dceff5"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/tent-transform-camping-DPpcZojJ.png",
+            "size": 711063,
+            "hash": "418c1a36a2339f1a9d66110fcb7b43cf441790e8eac80b529f7b34e41af1349f"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/xr-desc-1-661ZdAHC.png",
+            "size": 218834,
+            "hash": "908dd0b89f88d58fd9cc259b139ef0964020d8b0a4b8f4b29ac9973b257c6d89"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/xr-desc-2-DVmefP2M.jpg",
+            "size": 136555,
+            "hash": "90108e7ccb61c1af6c21cf229af39f83b2851eba8043bcb3ce7642a04c4c3b8a"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/xr-desc-3-B5EvUdHC.png",
+            "size": 285003,
+            "hash": "1cab805db7824ee41b0f4c7248279abbe593cdfb3bd07d81e418f1d5b46ef09b"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/xr-desc-4-0S4-pfuT.png",
+            "size": 279584,
+            "hash": "1cfa9b19967e2a55d51d07e7bf96b488c01cf911753cc62e27163b9244a5f33f"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/xr-main-1-BDgPqkve.png",
+            "size": 402243,
+            "hash": "4db153e0203c8fee903f2fd74cbe7d96e846f70e5dc26c398b6ebbea52168dcf"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/xr-main-2-DWJZZ2J7.png",
+            "size": 432284,
+            "hash": "1a262da3c1b4cc3069117cdbabcb969d49e5344883bcb6b209cf639cedc37257"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/xr-main-3-Dcedx1Ti.png",
+            "size": 430000,
+            "hash": "90f38eefbbf79338525c9bb86ea7116466f987428a477e1f3dd42fb2da061569"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/xr-main-4-Cwf8ulMW.png",
+            "size": 446460,
+            "hash": "5f0bba434bfca3d3f66ca7a570fe0deb0954cbfe4a0fc75d25d6db3ac43d1cba"
+        },
+        {
+            "type": "file",
+            "name": "dist/assets/xr-main-5-DBnSmAwh.png",
+            "size": 535432,
+            "hash": "a4331c337e5368ec72ff9295c0362f580aac277c85dda5d20ab7c3c146cb90b1"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs/heads"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs/remotes"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/pack/pack-141502fd8659b15cce22857ee699fb512387bac3.idx",
+            "size": 4572,
+            "hash": "57b1ea39f01d8075cd83c8ed52d9356f24b4a0f5cc29d71876fd501b6e2f9373"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/pack/pack-141502fd8659b15cce22857ee699fb512387bac3.pack",
+            "size": 51633239,
+            "hash": "157e2e45a9a0df31219499db4756bc5f3f35e1763c1d6f49a1d5d10b0bda3e61"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/pack/pack-141502fd8659b15cce22857ee699fb512387bac3.rev",
+            "size": 552,
+            "hash": "feaf667997a836f9232be1dae825d2c1eca2f25f51430331797b3b340d715a51"
+        },
+        {
+            "type": "file",
+            "name": ".git/refs/heads/main",
+            "size": 41,
+            "hash": "15b19a86d0b4b3e1527cd3250174426a865af1649b4c174c6682004e7d524b63"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/remotes/origin"
+        },
+        {
+            "type": "file",
+            "name": ".git/logs/refs/heads/main",
+            "size": 227,
+            "hash": "68bfeb80572f9d1814e001def26fbfbfaa316b6d8153578e5f02e802ba9b1e7f"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs/remotes/origin"
+        },
+        {
+            "type": "file",
+            "name": ".git/refs/remotes/origin/main",
+            "size": 41,
+            "hash": "15b19a86d0b4b3e1527cd3250174426a865af1649b4c174c6682004e7d524b63"
+        },
+        {
+            "type": "file",
+            "name": ".git/logs/refs/remotes/origin/main",
+            "size": 326,
+            "hash": "c35f0ee3e4b12ecfa4901475759f215dcc170e471854693c7a2ac8aa7a6ce1c4"
+        }
+    ]
+}
