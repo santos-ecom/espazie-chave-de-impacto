@@ -1,0 +1,8 @@
+DirectoryIndex index.html index.php
+RewriteEngine On
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect /chaveshopify to root to fix lingering loops/cache
+RewriteRule ^chaveshopify/?$ / [L,R=301]
