@@ -1,8 +1,19 @@
-DirectoryIndex index.html index.php
 RewriteEngine On
-# Force HTTPS
+
+# 1. Force HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Redirect /chaveshopify to root to fix lingering loops/cache
+# 2. Redirect /chaveshopify to root (handling lingering cache/links)
 RewriteRule ^chaveshopify/?$ / [L,R=301]
+
+# 3. Handle Clean URLs (Slugs) -> Serve index.html if it exists in a folder
+# This is default behavior for Apache but good to be explicit
+DirectoryIndex index.html index.php
+
+# 4. Fallback for the root to use index.php (which serves index.html safely)
+# IF index.html is prioritized, this might be skipped, but we want to ensure index.php LOGIC runs if accessed directly
+# But generally index.html taking precedence is SAFER for speed.
+# Let's verify: we want index.html logic.
+# The user's problem was "stuck on chaveshopify". 
+# Ensure no redirects FROM root TO chaveshopify exist.
