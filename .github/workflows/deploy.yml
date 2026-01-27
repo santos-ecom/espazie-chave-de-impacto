@@ -22,6 +22,8 @@ jobs:
           password: ${{ secrets.FTP_PASS }}
           port: 21
           security: loose
+          # Disable deleting remote files to avoid permission errors (550) on folders like 'lavadora'
+          delete: "false"
           server-dir: /public_html/
           local-dir: ./
           exclude: |
