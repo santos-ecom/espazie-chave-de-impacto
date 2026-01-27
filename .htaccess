@@ -1,20 +1,11 @@
 RewriteEngine On
 
-# 1. Force HTTPS
+# Force HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# 2. Redirect /chaveshopify to root
-RewriteRule ^chaveshopify/?$ / [L,R=301]
-
-# 3. DIRECTORY INDEX PRIORITY
-# This is the key. Tell Apache to look for index.html FIRST.
-# If index.html exists, serve it. If not, look for index.php.
+# Prioritize HTML
 DirectoryIndex index.html index.php
 
-# 4. Optional: If you want to be absolutely sure index.php is ignored for the root:
-# <Files index.php>
-#     Order allow,deny
-#     Deny from all
-# </Files>
-# (But that might break WP completely if they need it for something else, let's stick to DirectoryIndex first)
+# Redirect chaveshopify slug to root
+RewriteRule ^chaveshopify/?$ / [L,R=301]

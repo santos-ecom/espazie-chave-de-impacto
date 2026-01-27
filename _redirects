@@ -1,4 +1,0 @@
-# Netlify / Vercel redirects
-/chaveshopify/*  /  301
-/chaveshopify    /  301
-/*  /index.html  200
