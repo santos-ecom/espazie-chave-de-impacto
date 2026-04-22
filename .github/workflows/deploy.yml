@@ -24,7 +24,7 @@ jobs:
           security: loose
           # Disable deleting remote files to avoid permission errors (550) on folders like 'lavadora'
           delete: "false"
-          server-dir: /public_html/
+          server-dir: /
           local-dir: ./
           exclude: |
             **/.git*
