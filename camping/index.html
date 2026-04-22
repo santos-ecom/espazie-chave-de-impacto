@@ -867,6 +867,36 @@
             BUY NOW
         </button>
     </div>
+
+    <a id="buy-button" href="https://espazzie.shop/checkout/" style="display:none;">Comprar agora</a>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var button = document.getElementById('buy-button');
+      if (!button) return;
+
+      var checkoutUrl = new URL(button.href);
+      var currentParams = new URLSearchParams(window.location.search);
+      var allowedParams = [
+        'utm_source',
+        'utm_medium',
+        'utm_campaign',
+        'utm_content',
+        'utm_term',
+        'gclid',
+        'fbclid'
+      ];
+
+      allowedParams.forEach(function (key) {
+        var value = currentParams.get(key);
+        if (value) {
+          checkoutUrl.searchParams.set(key, value);
+        }
+      });
+
+      button.href = checkoutUrl.toString();
+    });
+    </script>
 </body>
 
 </html>
