@@ -652,7 +652,6 @@
         </div>
     </div>
     <script>
-        // Captura UTMs IMEDIATAMENTE (antes do UTMify limpar a URL)
         var _utmSnapshot = new URLSearchParams(window.location.search);
 
         document.addEventListener('DOMContentLoaded', function () {
@@ -671,6 +670,7 @@
                     });
                 }
             };
+
             // Logic for desktop thumbnails
             document.querySelectorAll('.hidden.lg\\:flex button').forEach(btn => {
                 btn.addEventListener('click', function () {
@@ -691,9 +691,7 @@
                 });
             });
 
-            // Logic for mobile thumbnails (if separate) or general
-            // Note: Mobile carousel might just use the same logic if classes match, but the structure might differ.
-            // Based on HTML, mobile thumbnails are also inside buttons
+            // Logic for mobile thumbnails
             document.querySelectorAll('.lg\\:hidden button').forEach(btn => {
                 btn.addEventListener('click', function () {
                     const imgUrl = this.querySelector('img').src;
@@ -711,20 +709,15 @@
                 });
             });
 
-
-            // --- QUANTITY SELECTION LOGIC ---
-            const quantityRadios = document.querySelectorAll('div[role="radiogroup"] button[role="radio"]');
+            const quantityRadios = document.querySelectorAll('button[role="radio"]');
             const counterDisplay = document.querySelector('.flex.items-center.border.rounded-lg.flex-shrink-0 span');
             const mainPriceDisplay = document.querySelector('.text-2xl.lg\\:text-3xl.font-bold.text-price-sale');
             const originalPriceDisplay = document.querySelector('.text-sm.text-price-original.line-through');
-
-            // Input para o ID do produto principal (items[0][id])
             const mainProductInput = document.querySelector('input[name="items[0][id]"]');
 
             let currentQuantity = 1;
             const pricingData = {};
 
-            // Redirecionamento direto para o checkout do WooCommerce (pula o carrinho)
             const checkoutUrls = {
                 1: 'https://nexoraxx.com/checkout/?add-to-cart=6768&quantity=1',
                 2: 'https://nexoraxx.com/checkout/?add-to-cart=6768&quantity=2',
@@ -733,7 +726,55 @@
                 5: 'https://nexoraxx.com/checkout/?add-to-cart=6768&quantity=5'
             };
 
-            // Initialize pricing data map and add listeners
+            function appendTrackingParams(baseUrl) {
+                const keys = [
+                    'utm_source',
+                    'utm_medium',
+                    'utm_campaign',
+                    'utm_term',
+                    'utm_content',
+                    'gclid',
+                    'fbclid'
+                ];
+
+                const destUrl = new URL(baseUrl);
+                const currentUrlParams = new URLSearchParams(window.location.search);
+
+                keys.forEach(function (key) {
+                    let value = '';
+
+                    if (currentUrlParams.has(key)) {
+                        value = currentUrlParams.get(key);
+                    }
+
+                    if (!value && _utmSnapshot.has(key)) {
+                        value = _utmSnapshot.get(key);
+                    }
+
+                    if (!value) {
+                        try {
+                            value = localStorage.getItem(key) || '';
+                        } catch (e) {}
+                    }
+
+                    if (!value) {
+                        try {
+                            const raw = localStorage.getItem('utmify') || localStorage.getItem('__utmify');
+                            if (raw) {
+                                const parsed = JSON.parse(raw);
+                                value = parsed[key] || '';
+                            }
+                        } catch (e) {}
+                    }
+
+                    if (value) {
+                        destUrl.searchParams.set(key, value);
+                    }
+                });
+
+                return destUrl.toString();
+            }
+
             quantityRadios.forEach(btn => {
                 const qty = parseInt(btn.value);
                 const label = btn.closest('label');
@@ -741,14 +782,12 @@
                 const original = label.querySelector('.text-price-original').innerText;
                 pricingData[qty] = { sale, original };
 
-                // Click listener for the button
                 btn.addEventListener('click', (e) => {
                     e.preventDefault();
                     e.stopPropagation();
                     updateState(qty);
                 });
 
-                // Click listener for the label (container)
                 label.addEventListener('click', (e) => {
                     e.preventDefault();
                     updateState(qty);
@@ -758,16 +797,13 @@
             function updateState(qty) {
                 currentQuantity = qty;
 
-                // Update Counter
                 if (counterDisplay) counterDisplay.innerText = qty;
 
-                // Update Top Prices
                 if (pricingData[qty]) {
                     if (mainPriceDisplay) mainPriceDisplay.innerText = pricingData[qty].sale;
                     if (originalPriceDisplay) originalPriceDisplay.innerText = pricingData[qty].original;
                 }
 
-                // Update Visuals
                 quantityRadios.forEach(btn => {
                     const btnQty = parseInt(btn.value);
                     const label = btn.closest('label');
@@ -788,61 +824,24 @@
                 });
             }
 
-            // Utilitário: copia UTMs para a URL de destino
-            // Fontes (em ordem de prioridade):
-            //   1. Snapshot capturado no carregamento (antes do UTMify limpar a URL)
-            //   2. Chaves individuais no localStorage (UTMify salva assim: utm_source, utm_medium, etc.)
-            //   3. JSON em localStorage (utmify / __utmify) como último fallback
-            function appendUtms(baseUrl) {
-                const utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
-                const destUrl = new URL(baseUrl);
-
-                utmKeys.forEach(function (key) {
-                    var value = null;
-
-                    // 1. Snapshot da URL original (capturado antes do UTMify limpar)
-                    if (_utmSnapshot.has(key)) {
-                        value = _utmSnapshot.get(key);
-                    }
-
-                    // 2. Chaves individuais no localStorage (como o UTMify realmente salva)
-                    if (!value) {
-                        try { value = localStorage.getItem(key); } catch (e) { }
-                    }
-
-                    // 3. JSON no localStorage (fallback genérico)
-                    if (!value) {
-                        try {
-                            var raw = localStorage.getItem('utmify') || localStorage.getItem('__utmify');
-                            if (raw) {
-                                var parsed = JSON.parse(raw);
-                                value = parsed[key] || null;
-                            }
-                        } catch (e) { }
-                    }
-
-                    if (value) destUrl.searchParams.set(key, value);
-                });
-
-                return destUrl.toString();
-            }
-
-            // Buy Button -> redireciona direto para adicionar o produto
             const mainBtn = document.getElementById('main-buy-button');
             if (mainBtn) {
-                mainBtn.onclick = function (e) {
+                mainBtn.addEventListener('click', function (e) {
                     e.preventDefault();
-                    fbq('track', 'InitiateCheckout');
-                    window.location.href = appendUtms(checkoutUrls[currentQuantity]);
-                };
-            }
-            const stickyBtn = document.getElementById('sticky-cta-container');
 
+                    if (typeof fbq === 'function') {
+                        fbq('track', 'InitiateCheckout');
+                    }
+
+                    const finalUrl = appendTrackingParams(checkoutUrls[currentQuantity]);
+                    window.location.assign(finalUrl);
+                });
+            }
+
+            const stickyBtn = document.getElementById('sticky-cta-container');
             if (mainBtn && stickyBtn) {
                 const observer = new IntersectionObserver((entries) => {
                     entries.forEach(entry => {
-                        // Check if button is out of view and above the viewport (scrolled past)
-                        // Or just out of view? Usually sticky footer appears when you scroll PAST the button.
                         if (!entry.isIntersecting && entry.boundingClientRect.top < 0) {
                             stickyBtn.classList.remove('translate-y-full');
                         } else {
